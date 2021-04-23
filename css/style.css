@@ -719,12 +719,18 @@ footer {
     color: white;
 }
 
+#contact a {
+    font-size: 27px;
+    color: black;
+    font-weight: bold;
+}
+
 /*---------------------------------------
      FEATURE
  -----------------------------------------*/
 
 #feature {
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -748,11 +754,16 @@ footer {
 }
 
 .feature-thumb h3 {
-    margin: 10px 0;
+    display: inline-block;
+    margin: 10px 0 10px 10px;
 }
 
 #feature p {
-    font-size: 18px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
 }
 
 /*---------------------------------------
@@ -815,6 +826,10 @@ footer {
   #logo {
       height: 30px;
       margin-left: 10px;
+  }
+
+  .feature-thumb {
+      text-align: center;
   }
 
 }
